@@ -30,7 +30,7 @@ body{
 
 .hero{
 
-    min-height:90vh;
+    min-height:100vh;
 
     display:flex;
 
@@ -43,21 +43,18 @@ body{
     padding:60px 8%;
 
     background:
-        linear-gradient(rgba(15,18,24,.30), rgba(15,18,24,.45)),
+        linear-gradient(rgba(15,18,24,.28), rgba(15,18,24,.42)),
         url("images/hero.jpg");
 
-    background-size: 85%;
-   
-    background-repeat: no-repeat;
-   
-    background-position: right center;
-   
-    background-color: #d8d2c7;
+    background-size:cover;
+
+    background-position:70% center;
 
     background-repeat:no-repeat;
 
     overflow:hidden;
 }
+
 .hero-content{
 
     width:540px;
