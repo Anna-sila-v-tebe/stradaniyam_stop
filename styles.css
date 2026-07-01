@@ -36,32 +36,47 @@ body{
 
     align-items:center;
 
-    justify-content:center;
+    justify-content:flex-start;
 
     position:relative;
 
-    padding:60px 20px;
+    padding:60px 8%;
 
-    background:linear-gradient(rgba(15,18,24,.45), rgba(15,18,24,.55)),
-url("images/5343774374290463826.jpg");
+    background:
+        linear-gradient(rgba(15,18,24,.30), rgba(15,18,24,.45)),
+        url("images/5343774374290463826.jpg");
 
     background-size:cover;
 
-   background-position: 75% center;
-   
-   overflow:hidden;
-}
+    background-position:78% center;
 
+    background-repeat:no-repeat;
+
+    overflow:hidden;
+}
 .hero-content{
 
-    max-width:900px;
+    width:540px;
 
-    text-align:center;
+    max-width:100%;
+
+    text-align:left;
 
     color:white;
 
-    z-index:2;
+    background:rgba(255,255,255,.14);
 
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.20);
+
+    border-radius:34px;
+
+    padding:48px;
+
+    box-shadow:0 30px 70px rgba(0,0,0,.18);
 }
 
 .subtitle{
@@ -87,6 +102,8 @@ h1{
     font-weight:800;
 
     margin-bottom:30px;
+
+   text-align:left;
 
 }
 
