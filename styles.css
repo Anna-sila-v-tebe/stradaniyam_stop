@@ -47,8 +47,9 @@ url("images/5343774374290463826.jpg");
 
     background-size:cover;
 
-    background-position:center;
-
+    background-position:center top;
+   
+   overflow:hidden;
 }
 
 .hero-content{
