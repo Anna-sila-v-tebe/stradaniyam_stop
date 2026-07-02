@@ -61,9 +61,11 @@ body{
 
     max-width:100%;
 
-    text-align:left;
+    margin-left:0;
 
-    color:white;
+    position:relative;
+
+    z-index:2;
 
     background:rgba(255,255,255,.14);
 
@@ -76,16 +78,6 @@ body{
     border-radius:34px;
 
     padding:48px;
-
-    box-shadow:0 30px 70px rgba(0,0,0,.18);
-   
-    margin-left:-120px;
-   
-    margin-top:-60px;
-   
-    position:relative;
-   
-    z-index:10;
 }
 
 .subtitle{
