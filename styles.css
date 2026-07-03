@@ -57,7 +57,7 @@ body{
 
     background-size:cover;
 
-    background-position:78% center;
+    background-position:90% center;
 
     background-repeat:no-repeat;
 
@@ -95,7 +95,9 @@ body{
 
 .hero-card{
 
-    width:560px;
+   width:620px;
+
+   max-width:620px;
 
     padding:56px;
 
