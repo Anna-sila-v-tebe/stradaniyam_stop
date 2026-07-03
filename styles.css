@@ -109,6 +109,79 @@ body{
     box-shadow:0 20px 60px rgba(0,0,0,.22);
 
 }
+
+.button{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:14px 28px;
+
+    background:#9FE3D5;
+
+    color:#2E2E2E;
+
+    text-decoration:none;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    border-radius:999px;
+
+    margin-bottom:10px;
+
+    transition:.35s;
+
+    box-shadow:0 12px 30px rgba(111,231,209,.28);
+
+}
+
+.button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 18px 40px rgba(111,231,209,.38);
+
+}
+
+.features{
+
+    margin-top:14px;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:6px;
+
+}
+
+.feature{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:6px;
+
+    padding:7px 12px;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.10);
+
+    color:white;
+
+    font-size:12px;
+
+    font-weight:500;
+
+}
+
 /* ==========================
    БЛОК "УЗНАЛА СЕБЯ?"
 ========================== */
