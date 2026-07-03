@@ -112,9 +112,9 @@ body{
 
 h1{
     font-family:'Playfair Display', serif;
-    font-size:58px;
+    font-size:48px;
     font-weight:600;
-    line-height:0.95;
+    line-height:1.05;
     color:#fff;
     margin-bottom:18px;
 }
