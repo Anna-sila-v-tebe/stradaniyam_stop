@@ -4,7 +4,6 @@
 <head>
 
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Перестаньте страдать в отношениях</title>
@@ -12,231 +11,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
-html{
-scroll-behavior:smooth;
-}
-
-body{
-
-font-family:'Manrope',sans-serif;
-
-background:#faf8f4;
-
-color:#2b2b2b;
-
-overflow-x:hidden;
-
-}
-
-.hero{
-
-position:relative;
-
-min-height:100vh;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-padding:40px;
-
-background:
-
-linear-gradient(rgba(15,18,24,.25),rgba(15,18,24,.45)),
-
-url("images/hero.png");
-
-background-size:cover;
-
-background-position:center;
-
-}
-
-.hero::before{
-
-content:"";
-
-position:absolute;
-
-inset:0;
-
-backdrop-filter:blur(2px);
-
-}
-
-.card{
-
-position:relative;
-
-z-index:2;
-
-width:min(760px,95%);
-
-padding:60px;
-
-border-radius:36px;
-
-background:rgba(255,255,255,.16);
-
-backdrop-filter:blur(20px);
-
-border:1px solid rgba(255,255,255,.25);
-
-box-shadow:
-
-0 40px 80px rgba(0,0,0,.18);
-
-}
-
-.badge{
-
-display:inline-block;
-
-padding:10px 18px;
-
-border-radius:999px;
-
-background:rgba(255,255,255,.18);
-
-color:white;
-
-font-size:14px;
-
-letter-spacing:1px;
-
-margin-bottom:24px;
-
-}
-
-h1{
-
-font-size:62px;
-
-line-height:1.05;
-
-font-weight:800;
-
-color:white;
-
-margin-bottom:28px;
-
-}
-
-.lead{
-
-font-size:24px;
-
-line-height:1.7;
-
-color:white;
-
-opacity:.95;
-
-margin-bottom:40px;
-
-}
-
-.button{
-
-display:inline-flex;
-
-align-items:center;
-
-justify-content:center;
-
-padding:22px 42px;
-
-border-radius:999px;
-
-text-decoration:none;
-
-background:#A0D6C5;
-
-color:#263238;
-
-font-weight:700;
-
-font-size:20px;
-
-transition:.35s;
-
-}
-
-.button:hover{
-
-transform:translateY(-4px);
-
-box-shadow:0 20px 40px rgba(0,0,0,.2);
-
-}
-
-.trust{
-
-margin-top:28px;
-
-display:flex;
-
-gap:14px;
-
-flex-wrap:wrap;
-
-}
-
-.trust span{
-
-background:rgba(255,255,255,.18);
-
-padding:10px 16px;
-
-border-radius:999px;
-
-color:white;
-
-font-size:14px;
-
-}
-
-@media(max-width:768px){
-
-.card{
-
-padding:34px 28px;
-
-}
-
-h1{
-
-font-size:40px;
-
-}
-
-.lead{
-
-font-size:19px;
-
-}
-
-.button{
-
-width:100%;
-
-}
-
-}
-
-</style>
+<link rel="stylesheet" href="styles.css">
 
 </head>
 
@@ -244,7 +21,11 @@ width:100%;
 
 <section class="hero">
 
-<div class="card">
+<div class="overlay"></div>
+
+<div class="hero-wrapper">
+
+<div class="hero-card">
 
 <div class="badge">
 
@@ -254,48 +35,91 @@ width:100%;
 
 <h1>
 
-Перестаньте страдать в отношениях
+Перестаньте<br>
+страдать<br>
+в отношениях
 
 </h1>
 
-<p class="lead">
+<p class="accent">
 
-Поймите, почему любовь превращается в боль,
-и сделайте первый шаг к внутреннему спокойствию —
-без попыток изменить партнера.
+Верните себе спокойствие<br>
+и себя настоящую.
 
 </p>
 
-<a class="button"
+<p class="description">
 
-href="https://monecle.com/buy/97408">
+Поймите, почему любовь превращается в боль,
+и перестаньте жить ожиданиями,
+тревогой и эмоциональной зависимостью.
+
+</p>
+
+<a
+href="https://monecle.com/buy/97408"
+target="_blank"
+class="button">
 
 Получить доступ за 390 ₽
 
 </a>
 
-<div class="trust">
+<div class="features">
 
-<span>20–30 минут</span>
+<div class="feature">
 
-<span>Практические упражнения</span>
+🕒
 
-<span>Доступ сразу после оплаты</span>
+<span>
+
+20–30 минут
+
+</span>
+
+</div>
+
+<div class="feature">
+
+⭐
+
+<span>
+
+Практические упражнения
+
+</span>
+
+</div>
+
+<div class="feature">
+
+🔒
+
+<span>
+
+Доступ сразу после оплаты
+
+</span>
+
+</div>
+
+</div>
 
 </div>
 
 </div>
 
 </section>
+
 <section class="problem">
 
 <div class="container">
 
-<div class="section-title">
+<h2>
 
 Возможно, ты узнаешь себя…
 
-</div>
+</h2>
 
 <div class="cards">
 
@@ -304,11 +128,11 @@ href="https://monecle.com/buy/97408">
 </div>
 
 <div class="card">
-📱 Настроение зависит от того, написал ли партнер.
+📱 Настроение зависит от сообщений партнёра.
 </div>
 
 <div class="card">
-😔 Боишься потерять человека и готова терпеть то, что причиняет боль.
+😔 Боишься потерять отношения и терпишь то, что причиняет боль.
 </div>
 
 <div class="card">
@@ -320,7 +144,7 @@ href="https://monecle.com/buy/97408">
 </div>
 
 <div class="card">
-🌿 Хочешь снова чувствовать спокойствие и опору на себя.
+🌿 Хочешь снова чувствовать внутреннюю опору.
 </div>
 
 </div>
@@ -328,3 +152,7 @@ href="https://monecle.com/buy/97408">
 </div>
 
 </section>
+
+</body>
+
+</html>
