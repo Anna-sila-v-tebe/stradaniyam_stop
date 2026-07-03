@@ -44,7 +44,7 @@ body{
 
     overflow:hidden;
 
-    padding:80px 8%;
+    padding:40px 6%;
 
     background-image:
        
@@ -102,11 +102,11 @@ body{
 
 .hero-card{
 
-   width:620px;
+    width:520px;
+   
+    max-width:520px;
 
-   max-width:620px;
-
-    padding:56px;
+    padding:40px;
 
     border-radius:36px;
 
