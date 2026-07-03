@@ -56,7 +56,7 @@ body{
 
     background-position:70% center;
 
-}
+    }
 
 .hero::after{
 
@@ -125,6 +125,7 @@ h1{
     font-size:24px;
     color:#9FE3D5;
     margin-bottom:16px;
+   
 }
 
 .description{
