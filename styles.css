@@ -122,9 +122,9 @@ h1{
 .accent{
     font-family:'Playfair Display', serif;
     font-style:italic;
-    font-size:30px;
+    font-size:24px;
     color:#9FE3D5;
-    margin-bottom:24px;
+    margin-bottom:16px;
 }
 
 .description{
