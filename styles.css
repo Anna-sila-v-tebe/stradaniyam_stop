@@ -105,7 +105,7 @@ body{
 
     width:360px;
 
-    padding:18px;
+    padding:16px;
 
     border-radius:20px;
 
@@ -149,7 +149,7 @@ h1{
 
     font-family:'Playfair Display',serif;
 
-    font-size:40px;
+    font-size:18px;
 
     font-weight:500;
 
@@ -177,13 +177,13 @@ h1{
 
 .description{
 
-    font-size:16px;
+    font-size:14px;
 
     color:rgba(255,255,255,.92);
 
-    margin-bottom:24px;
+    margin-bottom:16px;
 
-    line-height:1.6;
+    line-height:1.45;
 
 }
 
@@ -195,9 +195,9 @@ h1{
 
     justify-content:center;
 
-    padding:14px 28px;
+    padding:10px 20px;
 
-    font-size:16px;
+    font-size:14px;
 
     border-radius:999px;
 
@@ -210,6 +210,8 @@ h1{
     font-size:20px;
 
     font-weight:700;
+
+    margin-bottom:14px;
 
     transition:.35s;
 
