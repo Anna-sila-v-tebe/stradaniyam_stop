@@ -1286,7 +1286,7 @@ font-size:18px;
 }
 
 /* =====================================================
-   ПОЧЕМУ Я СОЗДАЛА ЭТОТ ПРАКТИКУМ
+ПОЧЕМУ Я ЗНАЮ, ЧТО ВЫХОД ЕСТЬ
 ===================================================== */
 
 .author{
@@ -1299,7 +1299,7 @@ font-size:18px;
 
 .author-card{
 
-    max-width:900px;
+    max-width:760px;
 
     margin:0 auto;
 
@@ -1307,9 +1307,9 @@ font-size:18px;
 
     border-radius:30px;
 
-    padding:60px;
+    padding:70px 65px;
 
-    box-shadow:0 20px 50px rgba(0,0,0,.06);
+    box-shadow:0 25px 60px rgba(0,0,0,.06);
 
 }
 
@@ -1317,13 +1317,25 @@ font-size:18px;
 
     font-family:'Playfair Display',serif;
 
-    font-size:42px;
+    font-size:44px;
+
+    line-height:1.2;
 
     color:#3D2F2A;
 
-    margin-bottom:30px;
-
     text-align:center;
+
+    margin-bottom:45px;
+
+}
+
+.author .lead{
+
+    font-size:23px;
+
+    line-height:1.9;
+
+    color:#4A4A4A;
 
 }
 
@@ -1333,15 +1345,9 @@ font-size:18px;
 
     line-height:2;
 
-    color:#555;
+    color:#5A5A5A;
 
     margin-bottom:28px;
-
-}
-
-.author p:last-child{
-
-    margin-bottom:0;
 
 }
 
@@ -1349,37 +1355,21 @@ font-size:18px;
 
     color:#3D2F2A;
 
-}
-
-
-
-@media(max-width:900px){
-
-.author{
-
-    padding:70px 0;
+    font-weight:700;
 
 }
 
-.author-card{
+.author-divider{
 
-    padding:30px;
+    width:70px;
 
-}
+    height:3px;
 
-.author h2{
+    background:#9FE3D5;
 
-    font-size:34px;
+    border-radius:20px;
 
-}
-
-.author p{
-
-    font-size:17px;
-
-    line-height:1.9;
-
-}
+    margin:45px auto;
 
 }
 
