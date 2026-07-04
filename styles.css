@@ -1809,3 +1809,117 @@ grid-template-columns:1fr;
 
 }
 
+/* =====================================
+ФИНАЛЬНЫЙ ОФФЕР
+===================================== */
+
+.final{
+
+padding:120px 8%;
+
+background:#F8F5F1;
+
+text-align:center;
+
+}
+
+.final h2{
+
+font-family:'Playfair Display',serif;
+
+font-size:48px;
+
+color:#3D2F2A;
+
+max-width:900px;
+
+margin:0 auto 35px;
+
+line-height:1.2;
+
+}
+
+.final-text{
+
+max-width:760px;
+
+margin:0 auto 28px;
+
+font-size:22px;
+
+line-height:1.8;
+
+color:#5D5A56;
+
+}
+
+.final-price{
+
+font-size:34px;
+
+margin:50px 0 35px;
+
+color:#3D2F2A;
+
+}
+
+.final-price strong{
+
+color:#3D2F2A;
+
+font-size:46px;
+
+}
+
+.final .button{
+
+margin:auto;
+
+display:inline-flex;
+
+}
+
+.final-note{
+
+margin-top:22px;
+
+font-size:17px;
+
+color:#8A837D;
+
+}
+
+@media(max-width:768px){
+
+.final{
+
+padding:80px 20px;
+
+}
+
+.final h2{
+
+font-size:34px;
+
+}
+
+.final-text{
+
+font-size:18px;
+
+}
+
+.final-price{
+
+font-size:28px;
+
+}
+
+.final-price strong{
+
+font-size:36px;
+
+}
+
+}
+
