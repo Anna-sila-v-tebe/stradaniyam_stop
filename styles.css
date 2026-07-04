@@ -1299,7 +1299,7 @@ font-size:18px;
 
 .author-card{
 
-    max-width:760px;
+    max-width:680px;
 
     margin:0 auto;
 
@@ -1307,7 +1307,7 @@ font-size:18px;
 
     border-radius:30px;
 
-    padding:70px 65px;
+    padding:45px 45px;
 
     box-shadow:0 25px 60px rgba(0,0,0,.06);
 
@@ -1317,7 +1317,7 @@ font-size:18px;
 
     font-family:'Playfair Display',serif;
 
-    font-size:44px;
+    font-size:34px;
 
     line-height:1.2;
 
@@ -1331,7 +1331,7 @@ font-size:18px;
 
 .author .lead{
 
-    font-size:23px;
+    font-size:18px;
 
     line-height:1.9;
 
@@ -1341,7 +1341,7 @@ font-size:18px;
 
 .author p{
 
-    font-size:20px;
+    font-size:18px;
 
     line-height:2;
 
@@ -1369,7 +1369,7 @@ font-size:18px;
 
     border-radius:20px;
 
-    margin:45px auto;
+    margin:28px auto;
 
 }
 
