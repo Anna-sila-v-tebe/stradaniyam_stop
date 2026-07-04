@@ -1379,3 +1379,18 @@ font-size:18px;
 
 }
 
+.author-note{
+
+    text-align:center;
+
+    font-size:14px;
+
+    color:#9B938D;
+
+    font-style:italic;
+
+    margin-top:-12px;
+
+    margin-bottom:40px;
+
+}
