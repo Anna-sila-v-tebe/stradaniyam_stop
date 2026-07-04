@@ -1299,17 +1299,11 @@ font-size:18px;
 
 .author-card{
 
-    max-width:680px;
+    max-width:700px;
 
     margin:0 auto;
 
-    background:#fff;
-
-    border-radius:30px;
-
-    padding:45px 45px;
-
-    box-shadow:0 25px 60px rgba(0,0,0,.06);
+    padding:0;
 
 }
 
@@ -1317,13 +1311,13 @@ font-size:18px;
 
     font-family:'Playfair Display',serif;
 
-    font-size:34px;
+    font-size:40px;
 
-    line-height:1.2;
-
-    color:#3D2F2A;
+    line-height:1.25;
 
     text-align:center;
+
+    color:#3D2F2A;
 
     margin-bottom:45px;
 
@@ -1331,23 +1325,27 @@ font-size:18px;
 
 .author .lead{
 
-    font-size:18px;
+    font-size:22px;
 
-    line-height:1.9;
+    line-height:1.8;
 
-    color:#4A4A4A;
+    color:#3D2F2A;
+
+    text-align:center;
+
+    margin-bottom:40px;
 
 }
 
 .author p{
 
-    font-size:18px;
+    font-size:19px;
 
     line-height:2;
 
-    color:#5A5A5A;
+    color:#5F5B57;
 
-    margin-bottom:28px;
+    margin-bottom:26px;
 
 }
 
@@ -1361,15 +1359,15 @@ font-size:18px;
 
 .author-divider{
 
-    width:70px;
+    width:80px;
 
-    height:3px;
+    height:2px;
 
     background:#9FE3D5;
 
-    border-radius:20px;
+    margin:38px auto;
 
-    margin:28px auto;
+    border-radius:20px;
 
 }
 
