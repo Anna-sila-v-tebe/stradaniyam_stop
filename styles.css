@@ -647,3 +647,201 @@ font-size:18px;
 }
 
 }
+
+/* =====================================================
+   ЧТО ВЫ ПОЛУЧИТЕ
+===================================================== */
+
+.inside{
+    padding:90px 0;
+    background:#ffffff;
+}
+
+.inside h2{
+    text-align:center;
+    font-family:'Playfair Display',serif;
+    font-size:42px;
+    color:#3D2F2A;
+    margin-bottom:18px;
+}
+
+.inside-subtitle{
+    max-width:760px;
+    margin:0 auto 55px;
+    text-align:center;
+    font-size:18px;
+    line-height:1.8;
+    color:#666;
+}
+
+.inside-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:26px;
+
+    margin-bottom:45px;
+
+}
+
+.inside-card{
+
+    background:#F8F5F1;
+
+    border-radius:24px;
+
+    padding:32px;
+
+    transition:.35s;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.05);
+
+}
+
+.inside-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.10);
+
+}
+
+.inside-icon{
+
+    width:62px;
+
+    height:62px;
+
+    border-radius:50%;
+
+    background:#9FE3D5;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+}
+
+.inside-card h3{
+
+    font-family:'Playfair Display',serif;
+
+    font-size:27px;
+
+    color:#3D2F2A;
+
+    margin-bottom:14px;
+
+    line-height:1.3;
+
+}
+
+.inside-card p{
+
+    font-size:17px;
+
+    line-height:1.75;
+
+    color:#666;
+
+}
+
+.inside-note{
+
+    max-width:900px;
+
+    margin:0 auto 40px;
+
+    padding:34px;
+
+    border-radius:24px;
+
+    background:#F8F5F1;
+
+    border-left:5px solid #9FE3D5;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#555;
+
+}
+
+.inside .button{
+
+    display:flex;
+
+    width:max-content;
+
+    margin:0 auto;
+
+}
+
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media(max-width:900px){
+
+.inside{
+
+    padding:70px 0;
+
+}
+
+.inside h2{
+
+    font-size:34px;
+
+}
+
+.inside-subtitle{
+
+    font-size:17px;
+
+}
+
+.inside-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.inside-card{
+
+    padding:24px;
+
+}
+
+.inside-card h3{
+
+    font-size:24px;
+
+}
+
+.inside-note{
+
+    padding:24px;
+
+    font-size:17px;
+
+}
+
+.inside .button{
+
+    width:100%;
+
+}
+
+}
