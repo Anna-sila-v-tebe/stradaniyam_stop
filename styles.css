@@ -1981,3 +1981,76 @@ font-size:36px;
 
 }
 
+/* =====================================
+FAQ ACCORDION
+===================================== */
+
+.faq-question{
+
+width:100%;
+
+background:none;
+
+border:none;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+cursor:pointer;
+
+font-size:23px;
+
+font-weight:700;
+
+color:#3D2F2A;
+
+text-align:left;
+
+padding:0;
+
+font-family:'Manrope',sans-serif;
+
+}
+
+.faq-plus{
+
+font-size:34px;
+
+transition:.3s;
+
+color:#9FE3D5;
+
+}
+
+.faq-answer{
+
+max-height:0;
+
+overflow:hidden;
+
+transition:max-height .35s ease;
+
+}
+
+.faq-answer p{
+
+padding-top:22px;
+
+}
+
+.faq-item.active .faq-answer{
+
+max-height:800px;
+
+}
+
+.faq-item.active .faq-plus{
+
+transform:rotate(45deg);
+
+}
+
+
