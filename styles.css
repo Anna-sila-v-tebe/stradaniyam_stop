@@ -1394,3 +1394,27 @@ font-size:18px;
     margin-bottom:40px;
 
 }
+
+.author-accent{
+
+    text-align:center;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:#3D2F2A;
+
+    margin:32px 0;
+
+}
+
+.author-final{
+
+    text-align:center;
+
+    font-size:21px;
+
+    line-height:1.9;
+
+}
