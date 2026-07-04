@@ -1263,3 +1263,25 @@ font-size:18px;
 
 }
 
+.quote{
+
+    background:#fff;
+
+    border-left:5px solid #9FE3D5;
+
+    padding:20px 24px;
+
+    margin:18px 0;
+
+    border-radius:16px;
+
+    font-style:italic;
+
+    color:#666;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+}
+
