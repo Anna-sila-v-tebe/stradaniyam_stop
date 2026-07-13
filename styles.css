@@ -1341,7 +1341,7 @@ font-size:18px;
 
     font-size:19px;
 
-    line-height:1,75;
+    line-height:1.75;
 
     color:#5F5B57;
 
@@ -2127,4 +2127,264 @@ font-size:17px;
 
 }
 
+}
+
+
+/* =====================================================
+   СТАРТОВАЯ СТОИМОСТЬ И POP-UP
+===================================================== */
+
+.start-price-note{
+    margin-top:14px;
+    color:rgba(255,255,255,.94);
+    font-size:14px;
+    line-height:1.5;
+    font-weight:600;
+}
+
+.section-price-note{
+    max-width:700px;
+    margin:16px auto 0;
+    text-align:center;
+    font-size:15px;
+    line-height:1.6;
+    color:#7A716A;
+    font-weight:600;
+}
+
+.popup-open{
+    overflow:hidden;
+}
+
+.price-popup-overlay{
+    position:fixed;
+    inset:0;
+    z-index:9999;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    background:rgba(34,27,22,.58);
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+    opacity:0;
+    visibility:hidden;
+    transition:opacity .35s ease, visibility .35s ease;
+}
+
+.price-popup-overlay.active{
+    opacity:1;
+    visibility:visible;
+}
+
+.price-popup{
+    position:relative;
+    width:100%;
+    max-width:620px;
+    max-height:calc(100vh - 40px);
+    overflow-y:auto;
+    padding:46px;
+    border-radius:30px;
+    background:#F8F5F1;
+    box-shadow:0 30px 90px rgba(0,0,0,.28);
+    text-align:center;
+    transform:translateY(24px) scale(.97);
+    transition:transform .35s ease;
+}
+
+.price-popup-overlay.active .price-popup{
+    transform:translateY(0) scale(1);
+}
+
+.price-popup-close{
+    position:absolute;
+    top:16px;
+    right:20px;
+    width:42px;
+    height:42px;
+    border:0;
+    border-radius:50%;
+    background:rgba(61,47,42,.07);
+    color:#3D2F2A;
+    font-size:30px;
+    line-height:1;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.price-popup-close:hover{
+    background:rgba(61,47,42,.13);
+    transform:rotate(5deg);
+}
+
+.price-popup-badge{
+    display:inline-block;
+    margin-bottom:18px;
+    padding:9px 16px;
+    border-radius:999px;
+    background:#9FE3D5;
+    color:#3D2F2A;
+    font-size:14px;
+    font-weight:700;
+}
+
+.price-popup h2{
+    max-width:520px;
+    margin:0 auto 24px;
+    font-family:'Playfair Display',serif;
+    font-size:38px;
+    line-height:1.2;
+    color:#3D2F2A;
+}
+
+.price-popup p{
+    margin:0 auto 18px;
+    font-size:17px;
+    line-height:1.75;
+    color:#5E5A57;
+}
+
+.price-popup-next{
+    margin:26px 0;
+    padding:18px 22px;
+    border-radius:18px;
+    background:#fff;
+    border-left:5px solid #9FE3D5;
+    color:#3D2F2A;
+    font-size:19px;
+    line-height:1.5;
+}
+
+.price-popup .button{
+    width:100%;
+}
+
+@media(max-width:768px){
+    .price-popup{
+        padding:38px 22px 26px;
+        border-radius:24px;
+    }
+
+    .price-popup h2{
+        font-size:30px;
+    }
+
+    .price-popup p{
+        font-size:16px;
+    }
+
+    .price-popup-next{
+        font-size:17px;
+    }
+
+    .start-price-note{
+        text-align:center;
+    }
+}
+
+
+/* =====================================================
+   ВИЗУАЛЬНЫЙ РИТМ: ФОТО-ФОН ЧЕРЕЗ БЛОК
+   Используем ту же фотографию и цветовую гамму, что в HERO.
+===================================================== */
+
+.why,
+.inside,
+.doubt,
+.reviews,
+.final{
+    position:relative;
+    isolation:isolate;
+    background:
+        linear-gradient(
+            110deg,
+            rgba(45,35,29,.92) 0%,
+            rgba(63,49,40,.84) 45%,
+            rgba(46,37,31,.72) 100%
+        ),
+        url("images/hero.png");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+.why::before,
+.inside::before,
+.doubt::before,
+.reviews::before,
+.final::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    z-index:-1;
+    background:
+        radial-gradient(circle at 18% 20%, rgba(159,227,213,.12), transparent 34%),
+        radial-gradient(circle at 82% 78%, rgba(255,255,255,.08), transparent 30%);
+    pointer-events:none;
+}
+
+.why-left h2,
+.inside h2,
+.doubt h2,
+.reviews h2,
+.final h2{
+    color:#fff;
+}
+
+.why-left p,
+.inside-subtitle,
+.doubt-bottom p,
+.reviews-subtitle,
+.final-text{
+    color:rgba(255,255,255,.88);
+}
+
+.why-left strong,
+.doubt-bottom h3{
+    color:#9FE3D5;
+}
+
+.why-card,
+.inside-card,
+.doubt-card,
+.review-card{
+    background:rgba(248,245,241,.94);
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,.20);
+    box-shadow:0 20px 55px rgba(0,0,0,.18);
+}
+
+.inside-note{
+    background:rgba(248,245,241,.95);
+    box-shadow:0 20px 55px rgba(0,0,0,.16);
+}
+
+.inside .section-price-note,
+.doubt .section-price-note,
+.reviews .section-price-note{
+    color:rgba(255,255,255,.88);
+}
+
+.final-price{
+    color:#fff;
+}
+
+.final-price strong{
+    color:#9FE3D5;
+}
+
+.final-note{
+    color:rgba(255,255,255,.82);
+}
+
+@media(max-width:900px){
+    .why,
+    .inside,
+    .doubt,
+    .reviews,
+    .final{
+        background-attachment:scroll;
+        background-position:68% center;
+    }
 }
